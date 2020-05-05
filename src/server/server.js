@@ -1,13 +1,11 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const Router = require("./router");
+const express = require('express');
+const bodyParser = require('body-parser');
+const Router = require('./router');
 
 class Server {
-  server;
-  port = process.env.PORT;
-
   constructor() {
     this.server = express();
+    this.port = process.env.PORT;
     this.middleware();
     new Router(this.server);
   }

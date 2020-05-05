@@ -1,7 +1,7 @@
 require("dotenv").config();
-const server = require("./server/server");
+const Server = require('./server/server');
 
 (async () => {
-  app = new server();
+  const app = new Server();
   await app.listen();
 })();
