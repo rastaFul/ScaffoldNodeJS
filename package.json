@@ -1,0 +1,26 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "Template application server nodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RoSampa94/TemplateNodeJS.git"
+  },
+  "keywords": [
+    "template",
+    "nodejs",
+    "javascript",
+    "server",
+    "restify"
+  ],
+  "author": "Rodrigo do Nascimento Barbosa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RoSampa94/TemplateNodeJS/issues"
+  },
+  "homepage": "https://github.com/RoSampa94/TemplateNodeJS#readme"
+}
