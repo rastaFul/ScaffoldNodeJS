@@ -5,7 +5,7 @@ const Router = require('./router');
 class Server {
   constructor() {
     this.server = express();
-    this.port = process.env.PORT;
+    this.port = process.env.PORT || 3000;
     this.middleware();
     new Router(this.server);
   }
